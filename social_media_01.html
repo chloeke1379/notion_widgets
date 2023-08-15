@@ -80,10 +80,6 @@
 
     .telegram:hover {
       color: #2AABEE;
-    }
-
-    .bag-shopping:hover {
-      color: #2AABEE;
     }    
     
     .social {
@@ -125,6 +121,12 @@
         <span class="icon instagram"><i class="fab fa-instagram"></i></span>
       </div>
       <!-- End instagram Icon -->
+
+      <!-- Start line Icon -->
+      <div id="line" onclick="navigate(this.id)" class="social">
+        <span class="icon line"><i class="fab fa-line"></i></span>
+      </div>
+      <!-- End line Icon -->
 
       <!-- Start linkedin Icon -->
  <!--     <div id="linkedin" onclick="navigate(this.id)" class="social">
@@ -223,6 +225,10 @@
         else if (id === "cart-shopping") {
           window.open("https://shopee.tw/alviss458200", '_blank').focus(); //Add the url to your bag-shopping link
         }
+        else if (id === "line") {
+          window.open("https://line.me/R/ti/p/@686yliky", '_blank').focus(); //Add the url to your bag-shopping link
+        }
+        
       }
 
     </script>
