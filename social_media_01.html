@@ -164,7 +164,11 @@
         <span class="icon telegram"><i class="fab fa-telegram"></i></span>
       </div>
 -->      <!-- End telegram Icon -->
-
+      <!-- Start bag-shopping Icon -->
+      <div id="bag-shopping" onclick="navigate(this.id)" class="social">
+        <span class="icon bag-shopping"><i class="fab fa-bag-shopping"></i></span>
+      </div>
+      <!-- End bag-shopping Icon -->
 
 
     </div>
@@ -210,6 +214,9 @@
         }
         else if (id === "telegram") {
           window.open("https://web.telegram.org/", '_blank').focus(); //Add the url to your telegram account
+        }
+        else if (id === "bag-shopping") {
+          window.open("https://shopee.tw/alviss458200", '_blank').focus(); //Add the url to your bag-shopping link
         }
       }
 
